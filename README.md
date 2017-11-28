@@ -1,6 +1,7 @@
 # Codility Example
 
-有關[Codility](https://codility.com/programmers/)上的練習與挑戰紀錄，說明題目以及自我思路內容。
+- 紀錄有關[Codility](https://codility.com/programmers/)上的練習與挑戰紀錄，說明題目以及自我思路內容。
+- 以**C++**為範例程式語言
 
 ## Reference
 
