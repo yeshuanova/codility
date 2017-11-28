@@ -1,5 +1,7 @@
 # [OddOccurrencesInArray](https://codility.com/programmers/lessons/2-arrays/odd_occurrences_in_array/)
 
+## Problem
+
 給定一個長度為 N 的 Array（N is odd number），除了其中一個數組外其他均兩兩相對。現給定一函式輸入Array後回傳唯一沒有成對存在的數值。
 
 - Assume
@@ -7,7 +9,7 @@
   - each element of array A is an integer within the range [1..1,000,000,000];
   - all but one of the values in A occur an even number of times.
 
-- Complexity(Worst Case)
+- Complexity(Worst-Case)
   - Time complexity - O(N)
   - Time complexity - O(1)
 
@@ -24,4 +26,4 @@
 
 ## Code
 
-[OddOccurrencesInArray](OddOccurrencesInArray.cpp)
+[OddOccurrencesInArray.cpp](OddOccurrencesInArray.cpp)

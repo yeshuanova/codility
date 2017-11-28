@@ -1,12 +1,14 @@
 # CyclicRotation
 
+## Problem
+
 給定一個Array A，將其往右環形移動 **K** 次後，回傳結果。如Array `A = [3, 8, 9, 7, 6]`以及移動次數`K = 3`，則回傳的Array內容為`[9, 7, 6, 3, 8]`。
 
 - Assume
   - N and K are integers within the range [0..100];
   - each element of array A is an integer within the range [−1,000..1,000].
 
-- Time Complexity (No, focus on correctness)
+- Complexity (No, focus on correctness)
 
 ## Idea
 
@@ -15,4 +17,4 @@
 
 ## Code
 
-[CyclicRotation](CyclicRotation.cpp)
+[CyclicRotation.cpp](CyclicRotation.cpp)
