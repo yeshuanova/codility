@@ -12,6 +12,19 @@
         "iterator": "cpp",
         "utility": "cpp",
         "vector": "cpp",
-        "__bit_reference": "cpp"
+        "__bit_reference": "cpp",
+        "__functional_base": "cpp",
+        "atomic": "cpp",
+        "functional": "cpp",
+        "limits": "cpp",
+        "memory": "cpp",
+        "tuple": "cpp",
+        "type_traits": "cpp",
+        "__locale": "cpp",
+        "string": "cpp",
+        "string_view": "cpp",
+        "bitset": "cpp",
+        "chrono": "cpp",
+        "iosfwd": "cpp"
     }
 }
