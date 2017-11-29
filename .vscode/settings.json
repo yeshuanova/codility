@@ -25,6 +25,9 @@
         "string_view": "cpp",
         "bitset": "cpp",
         "chrono": "cpp",
-        "iosfwd": "cpp"
+        "iosfwd": "cpp",
+        "locale": "cpp",
+        "ratio": "cpp",
+        "system_error": "cpp"
     }
 }
