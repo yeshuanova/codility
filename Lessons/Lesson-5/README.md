@@ -3,3 +3,7 @@
 ## [CountDiv](CountDiv.md)
 
 ## [PassingCars](PassingCars.md)
+
+## [GenomicRangeQuery](GenomicRangeQuery.md)
+
+## [MinAvgTwoSlice](MinAvgTwoSlice.md)

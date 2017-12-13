@@ -29,6 +29,8 @@
         "locale": "cpp",
         "ratio": "cpp",
         "system_error": "cpp",
-        "iostream": "cpp"
+        "iostream": "cpp",
+        "array": "cpp",
+        "__tuple": "cpp"
     }
 }
