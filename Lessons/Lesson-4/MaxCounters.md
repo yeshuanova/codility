@@ -2,7 +2,7 @@
 
 ## Problem
 
-給定一個長度為`N`，數值均為`0`的Counting Array `C`，現在給定一個Operating Array `A`整指定要執行的動作，其中
+給定一個長度為`N`，數值均為`0`的Counting Array `C`，現在給定一個 Operating Array `A` 指定要執行的動作：
 
 - **increase(X)** - `A[K] == X`且`1 <= X <= N`，則對執行`C[X-1] += 1`，即對`C[X-1]`執行累加動作。
 - **max counter** - `A[K] == N + 1`，則將`C`中所有數字設為`C`中存在的最大值。
