@@ -2,7 +2,7 @@
 
 ## Problem
 
-給定一長度為`N`的數組`A[0], A[1], ..., A[N-1]`，其中`1 <= A[i] <= (N + 1)`。找出範圍在`[1, N+1]`中，唯一沒出現在`A`中的整數值。
+給定一長度為 N 的數組 A = [ A[0], A[1], ..., A[N-1] ]，其中 1 <= A[i] <= (N + 1)。找出範圍在 [1, N+1] 中，唯一沒出現在 A 中的整數值。
 
 - Assume
   - N is an integer within the range [0..100,000];
@@ -15,8 +15,23 @@
 
 ## Idea
 
-建立一個長度為`N+1`的Counting Array，對原始數組每個位置統計是否存在，最後尋找沒有被統計到的值，該位置即為目標值。
+建立一個長度為 **N+1** 的Counting Array，對原始數組每個位置統計是否存在，最後尋找沒有被統計到的值，該位置即為目標值。
 
 ## Code
 
 [PermMissingElem.cpp](PermMissingElem.cpp)
+
+```cpp
+int solution(vector<int> &A) {
+
+    if (A.empty()) return 1;
+
+    auto count_vec = vector<int>(A.size() + 1, 0);
+
+    for_each(begin(A), end(A), [&](int value){ count_vec[value-1] += 1; });
+
+    auto result = find(begin(count_vec), end(count_vec), 0);
+    
+    return distance(begin(count_vec), result) + 1;
+}
+```

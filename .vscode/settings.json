@@ -32,6 +32,7 @@
         "iostream": "cpp",
         "array": "cpp",
         "__tuple": "cpp",
-        "deque": "cpp"
+        "deque": "cpp",
+        "stack": "cpp"
     }
 }
