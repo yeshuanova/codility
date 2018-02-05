@@ -1,10 +1,6 @@
 
 #include <vector>
 #include <stack>
-#include <algorithm>
-#include <iterator>
-#include <iostream>
-#include <functional>
 
 using namespace std;
 
